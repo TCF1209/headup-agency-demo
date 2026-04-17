@@ -165,6 +165,64 @@
       "cta": "Kembali ke laman utama"
     }
   },
+  "Careers": {
+    "hero": {
+      "title": "Berkembang Bersama Kami",
+      "intro": "Kami pasukan kecil yang membina playbook pertumbuhan untuk F&B Malaysia. Empat disiplin, satu kepercayaan: kerja yang spesifik akan berkompaun."
+    },
+    "values": {
+      "label": "01 / Cara kami bekerja",
+      "heading": "Empat perkara yang kami pegang teguh.",
+      "items": {
+        "impact": {
+          "title": "Didorong Impak",
+          "description": "Kami diukur berdasarkan hasil jualan klien yang digerakkan, bukan bilangan laporan yang dihantar."
+        },
+        "client": {
+          "title": "Taksub Klien",
+          "description": "Kami angkat telefon, turun ke lokasi, tinggal sehingga shift tutup bila perlu."
+        },
+        "learning": {
+          "title": "Sentiasa Belajar",
+          "description": "Algoritma platform berubah setiap minggu. Kami uji, dokumen, kongsi, ulang."
+        },
+        "team": {
+          "title": "Pasukan Dahulu",
+          "description": "Kami saling menjaga. Tiada sesiapa menghantar kerja yang mereka sendiri malu untuk tanggung."
+        }
+      }
+    },
+    "positions": {
+      "label": "02 / Jawatan Kosong",
+      "heading": "Sertai kami.",
+      "empty": "Tiada jawatan kosong buat masa ini — hantar sahaja CV anda ke hello@headupagency.com."
+    },
+    "types": {
+      "full-time": "Sepenuh masa",
+      "part-time": "Separuh masa",
+      "intern": "Intern",
+      "contract": "Kontrak"
+    },
+    "apply": "Mohon",
+    "applyTo": "Mohon untuk",
+    "applyIntro": "Kurang dari 3 minit. Kami balas dalam 5 hari bekerja — ya atau tidak.",
+    "form": {
+      "fullName": "Nama penuh",
+      "email": "Emel",
+      "phone": "Telefon",
+      "position": "Jawatan",
+      "linkedin": "LinkedIn (pilihan)",
+      "message": "Ceritakan sedikit tentang anda",
+      "resume": "Resume",
+      "resumeHint": "PDF, DOC, atau DOCX sehingga 5 MB",
+      "resumeDrop": "Lepaskan resume di sini, atau klik untuk pilih",
+      "resumeRemove": "Alih keluar",
+      "submit": "Hantar permohonan",
+      "submitting": "Menghantar...",
+      "successTitle": "Permohonan diterima.",
+      "successBody": "Kami akan hubungi dalam 5 hari bekerja — ya atau tidak, tanpa hilang diri."
+    }
+  },
   "Nav": {
     "home": "Utama",
     "services": "Perkhidmatan",

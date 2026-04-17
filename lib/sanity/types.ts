@@ -81,3 +81,17 @@ export type CaseStudyDetail = {
   testimonial: HomeTestimonial | null;
   publishedAt?: string;
 };
+
+export type JobType = "full-time" | "part-time" | "intern" | "contract";
+
+export type Job = {
+  _id: string;
+  title: LocalizedString;
+  slug: { current: string };
+  department?: string;
+  location?: string;
+  type: JobType;
+  description: LocalizedPortable;
+  responsibilities?: LocalizedString;
+  requirements?: LocalizedString;
+};

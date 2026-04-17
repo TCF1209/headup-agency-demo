@@ -97,3 +97,17 @@ export const allCaseStudySlugsQuery = groq`
     "slug": slug.current
   }
 `;
+
+export const activeJobsQuery = groq`
+  *[_type == "job" && active == true] | order(_createdAt asc) {
+    _id,
+    title,
+    slug,
+    department,
+    location,
+    type,
+    description,
+    responsibilities,
+    requirements
+  }
+`;

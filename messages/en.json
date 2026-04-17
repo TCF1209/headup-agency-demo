@@ -165,6 +165,64 @@
       "cta": "Back to home"
     }
   },
+  "Careers": {
+    "hero": {
+      "title": "Grow With Us",
+      "intro": "We're a small team building the growth playbook for Malaysian F&B. Four disciplines, one shared belief: specific work compounds."
+    },
+    "values": {
+      "label": "01 / How we work",
+      "heading": "Four things we hold the line on.",
+      "items": {
+        "impact": {
+          "title": "Impact-driven",
+          "description": "We measure ourselves on client revenue moved, not reports delivered."
+        },
+        "client": {
+          "title": "Client-obsessed",
+          "description": "We pick up the phone, do the site visit, stay through the closing shift when it matters."
+        },
+        "learning": {
+          "title": "Always learning",
+          "description": "Platform algorithms change weekly. We test, document, share, repeat."
+        },
+        "team": {
+          "title": "Team first",
+          "description": "We cover each other. Nobody ships a deliverable they'd be embarrassed to stand behind."
+        }
+      }
+    },
+    "positions": {
+      "label": "02 / Open roles",
+      "heading": "Join us.",
+      "empty": "No open roles at the moment — send us your CV anyway at hello@headupagency.com."
+    },
+    "types": {
+      "full-time": "Full-time",
+      "part-time": "Part-time",
+      "intern": "Intern",
+      "contract": "Contract"
+    },
+    "apply": "Apply",
+    "applyTo": "Apply for",
+    "applyIntro": "Takes under 3 minutes. We reply within 5 working days — yes or no.",
+    "form": {
+      "fullName": "Full name",
+      "email": "Email",
+      "phone": "Phone",
+      "position": "Position",
+      "linkedin": "LinkedIn (optional)",
+      "message": "Tell us a bit about yourself",
+      "resume": "Resume",
+      "resumeHint": "PDF, DOC, or DOCX up to 5 MB",
+      "resumeDrop": "Drop your resume here, or click to select",
+      "resumeRemove": "Remove",
+      "submit": "Send application",
+      "submitting": "Sending...",
+      "successTitle": "Application received.",
+      "successBody": "We'll be in touch within 5 working days — yes or no, no ghosting."
+    }
+  },
   "Nav": {
     "home": "Home",
     "services": "Services",
