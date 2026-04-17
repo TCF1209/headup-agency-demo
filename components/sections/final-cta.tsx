@@ -18,7 +18,7 @@ export function FinalCta() {
               <Button asChild size="lg">
                 <Link href="/book">{t("bookCta")}</Link>
               </Button>
-              <Button asChild size="lg" variant="outline">
+              <Button asChild size="lg" variant="dark">
                 <Link href="/book">{t("inquireCta")}</Link>
               </Button>
             </div>
