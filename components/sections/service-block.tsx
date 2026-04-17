@@ -47,19 +47,19 @@ export function ServiceBlock({
               />
             </div>
             {logos && logos.length > 0 && (
-              <div className="mt-6 flex items-center gap-6">
+              <div className="mt-6 flex items-center gap-5">
                 <p className="font-mono text-xs uppercase tracking-widest text-muted">
                   {t("integrates")}
                 </p>
-                <div className="flex items-center gap-4 opacity-80">
+                <div className="flex items-center gap-4">
                   {logos.map((l) => (
                     <Image
                       key={l.alt}
                       src={l.src}
                       alt={l.alt}
-                      width={80}
-                      height={24}
-                      className="h-6 w-auto rounded object-contain"
+                      width={48}
+                      height={48}
+                      className="h-12 w-12 rounded-lg object-contain"
                     />
                   ))}
                 </div>
