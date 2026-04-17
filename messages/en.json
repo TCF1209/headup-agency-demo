@@ -117,6 +117,32 @@
       "heading": "Common questions, answered."
     }
   },
+  "Solutions": {
+    "header": {
+      "title": "Real Results for Real F&B Businesses.",
+      "intro": "Three stories, one pattern: specific diagnoses, month-by-month execution, and numbers that survive external audit."
+    },
+    "filter": {
+      "label": "Filter by category",
+      "all": "All",
+      "empty": "No case studies in this category yet."
+    },
+    "detail": {
+      "backToAll": "All case studies",
+      "challengeLabel": "01 / The challenge",
+      "challengeHeading": "The problem.",
+      "approachLabel": "02 / Our approach",
+      "approachHeading": "What we did.",
+      "outcomeLabel": "03 / The outcome",
+      "outcomeHeading": "The results.",
+      "videoLabel": "04 / Walkthrough",
+      "videoHeading": "See it in action.",
+      "testimonialLabel": "05 / In their words",
+      "relatedLabel": "06 / More work",
+      "relatedHeading": "Want more proof?",
+      "detailCta": "Book a consultation"
+    }
+  },
   "Nav": {
     "home": "Home",
     "services": "Services",

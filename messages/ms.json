@@ -117,6 +117,32 @@
       "heading": "Soalan lazim, dijawab."
     }
   },
+  "Solutions": {
+    "header": {
+      "title": "Hasil Sebenar untuk Perniagaan F&B Sebenar.",
+      "intro": "Tiga kisah, satu corak: diagnosis khusus, pelaksanaan bulan demi bulan, dan nombor yang boleh bertahan audit luar."
+    },
+    "filter": {
+      "label": "Tapis mengikut kategori",
+      "all": "Semua",
+      "empty": "Belum ada kajian kes dalam kategori ini."
+    },
+    "detail": {
+      "backToAll": "Semua kajian kes",
+      "challengeLabel": "01 / Cabaran",
+      "challengeHeading": "Masalahnya.",
+      "approachLabel": "02 / Pendekatan kami",
+      "approachHeading": "Apa yang kami buat.",
+      "outcomeLabel": "03 / Hasilnya",
+      "outcomeHeading": "Keputusan.",
+      "videoLabel": "04 / Lihat sendiri",
+      "videoHeading": "Ikuti perjalanannya.",
+      "testimonialLabel": "05 / Dalam kata mereka",
+      "relatedLabel": "06 / Lebih banyak kerja",
+      "relatedHeading": "Mahu bukti lagi?",
+      "detailCta": "Tempah konsultasi"
+    }
+  },
   "Nav": {
     "home": "Utama",
     "services": "Perkhidmatan",

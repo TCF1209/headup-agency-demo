@@ -46,3 +46,38 @@ export type Faq = {
   answer: LocalizedPortable;
   category: "services" | "pricing" | "general";
 };
+
+export type Category = {
+  _id: string;
+  name: LocalizedString;
+  slug: { current: string };
+};
+
+export type CaseStudyCardData = {
+  _id: string;
+  title: LocalizedString;
+  slug: { current: string };
+  client: string;
+  category: Category | null;
+  coverImage: SanityImageRef;
+  keyMetric: { label: LocalizedString; value: string } | null;
+};
+
+export type Stat = { label: LocalizedString; value: string };
+
+export type CaseStudyDetail = {
+  _id: string;
+  title: LocalizedString;
+  slug: { current: string };
+  client: string;
+  category: Category | null;
+  coverImage: SanityImageRef;
+  quickStats: Stat[];
+  problem: LocalizedPortable;
+  solution: LocalizedPortable;
+  results: LocalizedPortable;
+  metrics: Stat[];
+  videoUrl?: string;
+  testimonial: HomeTestimonial | null;
+  publishedAt?: string;
+};

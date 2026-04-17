@@ -117,6 +117,32 @@
       "heading": "常见问题。"
     }
   },
+  "Solutions": {
+    "header": {
+      "title": "真实餐饮业者，真实业绩。",
+      "intro": "三个故事，一条规律：精准诊断、月度执行，以及经得起外部审计的数字。"
+    },
+    "filter": {
+      "label": "按分类筛选",
+      "all": "全部",
+      "empty": "暂无此分类下的案例。"
+    },
+    "detail": {
+      "backToAll": "所有案例",
+      "challengeLabel": "01 / 挑战",
+      "challengeHeading": "问题。",
+      "approachLabel": "02 / 方法",
+      "approachHeading": "我们做了什么。",
+      "outcomeLabel": "03 / 结果",
+      "outcomeHeading": "最终成效。",
+      "videoLabel": "04 / 视频",
+      "videoHeading": "看一看实施过程。",
+      "testimonialLabel": "05 / 客户原声",
+      "relatedLabel": "06 / 相关案例",
+      "relatedHeading": "想看更多实证？",
+      "detailCta": "预约咨询"
+    }
+  },
   "Nav": {
     "home": "首页",
     "services": "服务",
