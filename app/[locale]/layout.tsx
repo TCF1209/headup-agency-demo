@@ -1,6 +1,9 @@
 import type { Metadata } from "next";
 import { Inter, JetBrains_Mono } from "next/font/google";
-import "./globals.css";
+import { NextIntlClientProvider } from "next-intl";
+import { notFound } from "next/navigation";
+import { routing, type Locale } from "@/i18n/routing";
+import "../globals.css";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -23,17 +26,30 @@ export const metadata: Metadata = {
     "Malaysia-based growth agency helping F&B businesses scale online. GrabFood and Foodpanda marketing, POS system solutions.",
 };
 
-export default function RootLayout({
+export function generateStaticParams() {
+  return routing.locales.map((locale) => ({ locale }));
+}
+
+export default async function LocaleLayout({
   children,
+  params,
 }: Readonly<{
   children: React.ReactNode;
+  params: Promise<{ locale: string }>;
 }>) {
+  const { locale } = await params;
+  if (!routing.locales.includes(locale as Locale)) {
+    notFound();
+  }
+
   return (
     <html
-      lang="en"
+      lang={locale}
       className={`${inter.variable} ${jetbrainsMono.variable} h-full antialiased`}
     >
-      <body className="min-h-full flex flex-col">{children}</body>
+      <body className="min-h-full flex flex-col">
+        <NextIntlClientProvider>{children}</NextIntlClientProvider>
+      </body>
     </html>
   );
 }
