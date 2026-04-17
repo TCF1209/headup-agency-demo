@@ -223,6 +223,86 @@
       "successBody": "我们会在 5 个工作日内联系你——通过或不通过都会回复。"
     }
   },
+  "Partners": {
+    "hero": {
+      "title": "成为授权合作伙伴。",
+      "intro": "在马来西亚餐饮业增长的浪潮上构建你的收入。三条合作赛道，透明的分成结构，以及真的会接电话的团队。"
+    },
+    "types": {
+      "label": "01 / 合作赛道",
+      "heading": "三种合作方式。",
+      "items": {
+        "pos-hardware": {
+          "title": "POS 硬件合作伙伴",
+          "description": "为我们的客户安装提供硬件。我们负责部署与培训，你负责物流与售后。",
+          "bullet1": "大批量安装的阶梯定价",
+          "bullet2": "联合品牌的保修与支持",
+          "bullet3": "旺季优先供货"
+        },
+        "marketing-channel": {
+          "title": "营销渠道合作伙伴",
+          "description": "希望以你自己的品牌或以推荐方式提供我们服务的代理商、创作者与顾问。",
+          "bullet1": "成交订单最高 20% 分成",
+          "bullet2": "我们的实战手册与案例培训",
+          "bullet3": "每月资讯的联合营销位"
+        },
+        "strategic-referral": {
+          "title": "战略推荐合作伙伴",
+          "description": "希望为自己网络提供增值服务的餐饮业主、供应商与行业协会。",
+          "bullet1": "成交项目固定推荐费",
+          "bullet2": "专属客户经理",
+          "bullet3": "你的网络可享会员专享价"
+        }
+      }
+    },
+    "benefits": {
+      "label": "02 / 合作收益",
+      "heading": "六项复利型回报。",
+      "items": {
+        "revenue": {
+          "title": "分成收入",
+          "description": "透明的佣金结构，月度结算。没有阶梯陷阱，没有季度追回。"
+        },
+        "marketing": {
+          "title": "联合营销",
+          "description": "共同发布案例、互推邮件通讯，以及我们官方账号的社媒曝光。"
+        },
+        "training": {
+          "title": "培训与认证",
+          "description": "每季度 GrabFood、Foodpanda 平台变化深度解析。可选 POS 认证路径。"
+        },
+        "support": {
+          "title": "优先支持",
+          "description": "共享 Slack 频道，合作伙伴问题当日响应，新服务优先试用。"
+        },
+        "whitelabel": {
+          "title": "白标选项",
+          "description": "代理商与经销商可以你自己的品牌提供我们的 POS 与营销服务，交接流程顺畅。"
+        },
+        "territories": {
+          "title": "独家区域",
+          "description": "战略合作伙伴可在特定地域或垂直领域获得独家权利，需达到业绩底线。"
+        }
+      }
+    },
+    "form": {
+      "label": "03 / 申请",
+      "heading": "开启对话。",
+      "intro": "我们会在 3 个工作日内回复。如果双方合适，我们会安排 30 分钟的介绍电话。",
+      "companyName": "公司名称",
+      "contactName": "你的姓名",
+      "email": "邮箱",
+      "phone": "电话",
+      "partnershipType": "合作类型",
+      "website": "公司网址（选填）",
+      "businessDescription": "简要介绍你的业务",
+      "partnerReason": "为什么希望与我们合作",
+      "submit": "发送申请",
+      "submitting": "发送中…",
+      "successTitle": "申请已收到。",
+      "successBody": "我们将在 3 个工作日内审阅并答复。期间请查收你的确认邮件。"
+    }
+  },
   "Nav": {
     "home": "首页",
     "services": "服务",

@@ -223,6 +223,86 @@
       "successBody": "We'll be in touch within 5 working days — yes or no, no ghosting."
     }
   },
+  "Partners": {
+    "hero": {
+      "title": "Become an Authorised Partner.",
+      "intro": "Build revenue on top of Malaysia's F&B growth story. Three partnership tracks, transparent commission structures, and a team that actually picks up the phone."
+    },
+    "types": {
+      "label": "01 / Partnership tracks",
+      "heading": "Three ways to partner.",
+      "items": {
+        "pos-hardware": {
+          "title": "POS Hardware Partner",
+          "description": "Supply hardware to our client installs. We handle deployment and training; you handle logistics and post-sale.",
+          "bullet1": "Volume-tier pricing on bulk installs",
+          "bullet2": "Co-branded warranty and support",
+          "bullet3": "Priority allocation during seasonal surges"
+        },
+        "marketing-channel": {
+          "title": "Marketing Channel Partner",
+          "description": "Agencies, creators, and consultants who want to offer our services under their brand or as a referral.",
+          "bullet1": "Up to 20% revenue share on closed deals",
+          "bullet2": "Training on our playbooks and case studies",
+          "bullet3": "Co-marketing slots on our monthly digest"
+        },
+        "strategic-referral": {
+          "title": "Strategic Referral Partner",
+          "description": "F&B landlords, suppliers, and associations who want a value-add for their network.",
+          "bullet1": "Flat referral fee on closed engagements",
+          "bullet2": "Dedicated account manager",
+          "bullet3": "Member-only pricing for your network"
+        }
+      }
+    },
+    "benefits": {
+      "label": "02 / What you get",
+      "heading": "Six benefits that compound.",
+      "items": {
+        "revenue": {
+          "title": "Revenue sharing",
+          "description": "Transparent commission, paid monthly. No tiered gotchas, no quarterly clawbacks."
+        },
+        "marketing": {
+          "title": "Co-marketing",
+          "description": "Joint case studies, cross-promoted newsletters, and social coverage on our verified accounts."
+        },
+        "training": {
+          "title": "Training & certification",
+          "description": "Quarterly deep-dives on GrabFood and Foodpanda platform changes. Optional POS certification track."
+        },
+        "support": {
+          "title": "Priority support",
+          "description": "Shared Slack channel, same-day response on partner queries, first look at new service offerings."
+        },
+        "whitelabel": {
+          "title": "White-label options",
+          "description": "Agencies and resellers can offer our POS and marketing services under their brand with clean handoffs."
+        },
+        "territories": {
+          "title": "Exclusive territories",
+          "description": "Strategic partners can lock exclusive rights in a geography or vertical, subject to performance minimums."
+        }
+      }
+    },
+    "form": {
+      "label": "03 / Apply",
+      "heading": "Start the conversation.",
+      "intro": "We respond within 3 working days. If there's mutual fit, we'll set up a 30-minute intro call.",
+      "companyName": "Company name",
+      "contactName": "Your name",
+      "email": "Email",
+      "phone": "Phone",
+      "partnershipType": "Partnership type",
+      "website": "Company website (optional)",
+      "businessDescription": "Brief description of your business",
+      "partnerReason": "Why you want to partner with us",
+      "submit": "Send application",
+      "submitting": "Sending...",
+      "successTitle": "Application received.",
+      "successBody": "We'll review and respond within 3 working days. Check your inbox for a confirmation email in the meantime."
+    }
+  },
   "Nav": {
     "home": "Home",
     "services": "Services",

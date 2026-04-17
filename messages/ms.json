@@ -223,6 +223,86 @@
       "successBody": "Kami akan hubungi dalam 5 hari bekerja — ya atau tidak, tanpa hilang diri."
     }
   },
+  "Partners": {
+    "hero": {
+      "title": "Jadi Rakan Niaga Yang Dibenarkan.",
+      "intro": "Bina pendapatan di atas kisah pertumbuhan F&B Malaysia. Tiga laluan rakan kongsi, struktur komisen telus, dan pasukan yang benar-benar angkat telefon."
+    },
+    "types": {
+      "label": "01 / Laluan kerjasama",
+      "heading": "Tiga cara untuk bekerjasama.",
+      "items": {
+        "pos-hardware": {
+          "title": "Rakan Perkakasan POS",
+          "description": "Bekalkan perkakasan untuk pemasangan klien kami. Kami urus penempatan dan latihan; anda urus logistik dan pasca-jualan.",
+          "bullet1": "Harga mengikut jumlah untuk pemasangan pukal",
+          "bullet2": "Waranti dan sokongan berjenama bersama",
+          "bullet3": "Keutamaan peruntukan semasa lonjakan musim"
+        },
+        "marketing-channel": {
+          "title": "Rakan Saluran Pemasaran",
+          "description": "Agensi, pencipta, dan perunding yang ingin menawarkan perkhidmatan kami di bawah jenama mereka atau sebagai rujukan.",
+          "bullet1": "Sehingga 20% perkongsian hasil bagi deal ditutup",
+          "bullet2": "Latihan playbook dan kajian kes kami",
+          "bullet3": "Slot pemasaran bersama dalam digest bulanan"
+        },
+        "strategic-referral": {
+          "title": "Rakan Rujukan Strategik",
+          "description": "Tuan tanah F&B, pembekal, dan persatuan yang ingin menambah nilai untuk jaringan mereka.",
+          "bullet1": "Yuran rujukan tetap untuk engagement ditutup",
+          "bullet2": "Pengurus akaun khusus",
+          "bullet3": "Harga ahli-sahaja untuk jaringan anda"
+        }
+      }
+    },
+    "benefits": {
+      "label": "02 / Faedah",
+      "heading": "Enam faedah yang berkompaun.",
+      "items": {
+        "revenue": {
+          "title": "Perkongsian hasil",
+          "description": "Komisen telus, dibayar bulanan. Tiada peringkat tersembunyi, tiada tuntutan semula suku tahun."
+        },
+        "marketing": {
+          "title": "Pemasaran bersama",
+          "description": "Kajian kes bersama, buletin silang-promosi, dan liputan sosial di akaun kami yang disahkan."
+        },
+        "training": {
+          "title": "Latihan & pensijilan",
+          "description": "Pendalaman suku tahunan tentang perubahan platform GrabFood dan Foodpanda. Laluan pensijilan POS pilihan."
+        },
+        "support": {
+          "title": "Sokongan keutamaan",
+          "description": "Saluran Slack bersama, respons hari-sama untuk pertanyaan rakan kongsi, tinjauan awal perkhidmatan baharu."
+        },
+        "whitelabel": {
+          "title": "Pilihan label putih",
+          "description": "Agensi dan penjual semula boleh tawarkan POS dan pemasaran kami di bawah jenama mereka dengan pemindahan bersih."
+        },
+        "territories": {
+          "title": "Wilayah eksklusif",
+          "description": "Rakan strategik boleh kunci hak eksklusif di kawasan atau sektor, tertakluk kepada prestasi minimum."
+        }
+      }
+    },
+    "form": {
+      "label": "03 / Mohon",
+      "heading": "Mulakan perbualan.",
+      "intro": "Kami balas dalam 3 hari bekerja. Jika ada padanan, kami akan atur panggilan pengenalan 30 minit.",
+      "companyName": "Nama syarikat",
+      "contactName": "Nama anda",
+      "email": "Emel",
+      "phone": "Telefon",
+      "partnershipType": "Jenis kerjasama",
+      "website": "Laman web syarikat (pilihan)",
+      "businessDescription": "Penerangan ringkas perniagaan anda",
+      "partnerReason": "Kenapa anda mahu bekerjasama dengan kami",
+      "submit": "Hantar permohonan",
+      "submitting": "Menghantar...",
+      "successTitle": "Permohonan diterima.",
+      "successBody": "Kami akan semak dan balas dalam 3 hari bekerja. Sementara itu, semak peti masuk anda untuk emel pengesahan."
+    }
+  },
   "Nav": {
     "home": "Utama",
     "services": "Perkhidmatan",
