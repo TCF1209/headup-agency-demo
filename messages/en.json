@@ -316,6 +316,25 @@
       "relatedHeading": "Other field notes."
     }
   },
+  "Legal": {
+    "privacy": {
+      "title": "Privacy Policy",
+      "intro": "Our full privacy policy is being finalised with legal counsel. In plain terms today: we only collect the personal information you give us through forms (name, email, phone, business details, resume), we use it solely to respond to you and manage our engagement, and we don't sell or share it with third parties outside our service providers (email delivery, analytics, hosting).",
+      "contact": "For specific questions about your data, email <email>hello@headupagency.com</email> or WhatsApp the number in our footer. A formal document will replace this page before public launch."
+    },
+    "terms": {
+      "title": "Terms of Service",
+      "intro": "Our full terms of service are being finalised with legal counsel. In the meantime, the short version: services are provided under individual engagement contracts. Website content is informational and may change without notice. Case study metrics reflect specific client situations and aren't a promise of your results.",
+      "contact": "For specific questions about engagement terms, email <email>hello@headupagency.com</email>. A formal document will replace this page before public launch."
+    }
+  },
+  "NotFound": {
+    "label": "404",
+    "title": "Page not found.",
+    "body": "The link you followed might be broken, or the page may have moved. Let's get you back to something useful.",
+    "backHome": "Back to home",
+    "browseCases": "Browse case studies"
+  },
   "Nav": {
     "home": "Home",
     "services": "Services",

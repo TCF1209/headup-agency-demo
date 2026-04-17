@@ -316,6 +316,25 @@
       "relatedHeading": "Nota lapangan lain."
     }
   },
+  "Legal": {
+    "privacy": {
+      "title": "Dasar Privasi",
+      "intro": "Dasar privasi penuh kami sedang disempurnakan bersama peguam cara. Secara ringkas: kami hanya kumpul maklumat peribadi yang anda berikan melalui borang (nama, emel, telefon, butiran perniagaan, resume), digunakan semata-mata untuk balas anda dan uruskan kerjasama, dan tidak dijual atau dikongsi dengan pihak ketiga di luar pembekal perkhidmatan kami (penghantaran emel, analitis, pengehosan).",
+      "contact": "Untuk soalan khusus tentang data anda, emel <email>hello@headupagency.com</email> atau WhatsApp nombor di footer. Dokumen rasmi akan menggantikan halaman ini sebelum pelancaran awam."
+    },
+    "terms": {
+      "title": "Terma Perkhidmatan",
+      "intro": "Terma perkhidmatan penuh kami sedang disempurnakan bersama peguam cara. Ringkasnya: perkhidmatan disediakan di bawah kontrak engagement individu. Kandungan laman web adalah bersifat maklumat dan boleh berubah tanpa notis. Metrik kajian kes mencerminkan situasi klien tertentu dan bukan janji untuk hasil anda.",
+      "contact": "Untuk soalan khusus tentang terma engagement, emel <email>hello@headupagency.com</email>. Dokumen rasmi akan menggantikan halaman ini sebelum pelancaran awam."
+    }
+  },
+  "NotFound": {
+    "label": "404",
+    "title": "Halaman tidak ditemui.",
+    "body": "Pautan yang anda ikuti mungkin rosak, atau halaman mungkin telah berpindah. Mari bawa anda kembali ke sesuatu yang berguna.",
+    "backHome": "Kembali ke laman utama",
+    "browseCases": "Semak kajian kes"
+  },
   "Nav": {
     "home": "Utama",
     "services": "Perkhidmatan",
