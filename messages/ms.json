@@ -170,6 +170,28 @@
       "body": "Kalendar dalam talian kami akan tersedia sebentar lagi. Sementara itu, hubungi kami terus dan kami akan susun slot dalam satu hari bekerja.",
       "emailCta": "Hantar emel",
       "whatsappCta": "Hubungi WhatsApp"
+    },
+    "mock": {
+      "demoBadge": "Pratonton aliran tempahan",
+      "pickDate": "Pilih tarikh",
+      "prevMonth": "Bulan sebelum",
+      "nextMonth": "Bulan seterusnya",
+      "dateHint": "Hari bekerja dalam 60 hari akan datang. Hujung minggu kami simpan untuk kerja platform.",
+      "changeDate": "Tukar tarikh",
+      "pickTime": "Slot masa yang ada",
+      "timeHint": "Semua masa ikut waktu Malaysia (UTC+8). Sesi berjalan 30 minit.",
+      "changeTime": "Tukar masa",
+      "bookingFor": "Tempahan untuk",
+      "name": "Nama penuh",
+      "email": "Emel",
+      "notes": "Apa-apa yang perlu kami tahu sebelum panggilan (pilihan)",
+      "notesPlaceholder": "Cth. kafe di Bangsar, 60 tempahan/hari di GrabFood, fikir upgrade POS.",
+      "confirm": "Sahkan tempahan",
+      "submitting": "Mengesahkan...",
+      "confirmedLabel": "Tertempah",
+      "confirmedTitle": "Jumpa lagi.",
+      "confirmedBody": "Jemputan kalendar dan soal selidik ringkas akan tiba di inbox anda.",
+      "bookAnother": "Tempah masa lain"
     }
   },
   "Careers": {

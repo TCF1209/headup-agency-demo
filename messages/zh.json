@@ -170,6 +170,28 @@
       "body": "在线日历即将上线。在此之前，请通过邮件或 WhatsApp 联系我们，我们会在一个工作日内为你安排时间。",
       "emailCta": "发送邮件",
       "whatsappCta": "WhatsApp 联系"
+    },
+    "mock": {
+      "demoBadge": "预览预约流程",
+      "pickDate": "选择日期",
+      "prevMonth": "上个月",
+      "nextMonth": "下个月",
+      "dateHint": "未来 60 天内的工作日。周末留给外卖平台工作。",
+      "changeDate": "更换日期",
+      "pickTime": "可选时段",
+      "timeHint": "时间以马来西亚时间 (UTC+8) 为准。每节 30 分钟。",
+      "changeTime": "更换时间",
+      "bookingFor": "预约时间",
+      "name": "姓名",
+      "email": "邮箱",
+      "notes": "会议前希望我们了解的信息（选填）",
+      "notesPlaceholder": "例如：班萨的咖啡馆，GrabFood 每天 60 单，考虑升级 POS 系统。",
+      "confirm": "确认预约",
+      "submitting": "确认中…",
+      "confirmedLabel": "已预约",
+      "confirmedTitle": "到时见。",
+      "confirmedBody": "日历邀请与简短问卷将发送到你的邮箱。",
+      "bookAnother": "预约另一个时间"
     }
   },
   "Careers": {

@@ -170,6 +170,28 @@
       "body": "Our online calendar will be live shortly. In the meantime, reach us directly and we'll slot you in within one working day.",
       "emailCta": "Email us",
       "whatsappCta": "WhatsApp us"
+    },
+    "mock": {
+      "demoBadge": "Preview booking flow",
+      "pickDate": "Pick a date",
+      "prevMonth": "Previous month",
+      "nextMonth": "Next month",
+      "dateHint": "Weekdays within the next 60 days. Weekends are reserved for delivery platform work.",
+      "changeDate": "Change date",
+      "pickTime": "Available time slots",
+      "timeHint": "All times are Malaysia time (UTC+8). Sessions run 30 minutes.",
+      "changeTime": "Change time",
+      "bookingFor": "Booking for",
+      "name": "Full name",
+      "email": "Email",
+      "notes": "Anything we should know before the call (optional)",
+      "notesPlaceholder": "E.g. cafe in Bangsar, 60 orders/day on GrabFood, considering POS upgrade.",
+      "confirm": "Confirm booking",
+      "submitting": "Confirming...",
+      "confirmedLabel": "Booked",
+      "confirmedTitle": "See you then.",
+      "confirmedBody": "A calendar invite and short questionnaire will arrive in your inbox.",
+      "bookAnother": "Book another time"
     }
   },
   "Careers": {

@@ -4,7 +4,7 @@ import { Check } from "lucide-react";
 import { Link } from "@/i18n/navigation";
 import { FadeIn } from "@/components/motion/fade-in";
 import { CalEmbed } from "@/components/book/cal-embed";
-import { CalPlaceholder } from "@/components/book/cal-placeholder";
+import { MockBooking } from "@/components/book/mock-booking";
 
 const PLACEHOLDER_CAL_LINK = "headupagency/consultation";
 const calLink = process.env.NEXT_PUBLIC_CAL_LINK ?? PLACEHOLDER_CAL_LINK;
@@ -101,7 +101,7 @@ export default function BookPage() {
               {isCalConfigured ? (
                 <CalEmbed calLink={calLink} />
               ) : (
-                <CalPlaceholder />
+                <MockBooking />
               )}
             </div>
           </FadeIn>
