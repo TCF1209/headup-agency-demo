@@ -58,3 +58,8 @@ tmp/
 temp/
 *.tmp
 *.bak
+
+# debug screenshots dropped at repo root
+/image.png
+/image-*.png
+/screenshot*.png

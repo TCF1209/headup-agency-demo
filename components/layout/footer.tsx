@@ -24,8 +24,8 @@ export function Footer() {
               src="/assets/logo.png"
               alt="Head Up Agency"
               width={140}
-              height={36}
-              className="h-9 w-auto brightness-0 invert"
+              height={140}
+              className="h-12 w-auto rounded"
             />
             <p className="max-w-sm text-sm leading-relaxed text-surface/70">
               {t("tagline")}
