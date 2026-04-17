@@ -163,6 +163,13 @@
       "title": "Your consultation is confirmed.",
       "body": "Check your email for the calendar invite. We'll also send a short questionnaire so the session starts with context, not introductions.",
       "cta": "Back to home"
+    },
+    "placeholder": {
+      "label": "Calendar coming soon",
+      "title": "We're finalising our booking system.",
+      "body": "Our online calendar will be live shortly. In the meantime, reach us directly and we'll slot you in within one working day.",
+      "emailCta": "Email us",
+      "whatsappCta": "WhatsApp us"
     }
   },
   "Careers": {

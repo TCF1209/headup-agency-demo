@@ -163,6 +163,13 @@
       "title": "Konsultasi anda telah disahkan.",
       "body": "Semak emel anda untuk jemputan kalendar. Kami juga akan hantar borang soal selidik ringkas supaya sesi bermula dengan konteks, bukan pengenalan.",
       "cta": "Kembali ke laman utama"
+    },
+    "placeholder": {
+      "label": "Kalendar akan tiba",
+      "title": "Kami sedang muktamadkan sistem tempahan.",
+      "body": "Kalendar dalam talian kami akan tersedia sebentar lagi. Sementara itu, hubungi kami terus dan kami akan susun slot dalam satu hari bekerja.",
+      "emailCta": "Hantar emel",
+      "whatsappCta": "Hubungi WhatsApp"
     }
   },
   "Careers": {

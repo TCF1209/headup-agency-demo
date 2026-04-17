@@ -4,8 +4,14 @@ import { Check } from "lucide-react";
 import { Link } from "@/i18n/navigation";
 import { FadeIn } from "@/components/motion/fade-in";
 import { CalEmbed } from "@/components/book/cal-embed";
+import { CalPlaceholder } from "@/components/book/cal-placeholder";
 
-const calLink = process.env.NEXT_PUBLIC_CAL_LINK ?? "headupagency/consultation";
+const PLACEHOLDER_CAL_LINK = "headupagency/consultation";
+const calLink = process.env.NEXT_PUBLIC_CAL_LINK ?? PLACEHOLDER_CAL_LINK;
+const isCalConfigured = Boolean(
+  process.env.NEXT_PUBLIC_CAL_LINK &&
+    process.env.NEXT_PUBLIC_CAL_LINK !== PLACEHOLDER_CAL_LINK
+);
 
 function BreadcrumbRow() {
   const tNav = useTranslations("Nav");
@@ -92,7 +98,11 @@ export default function BookPage() {
 
           <FadeIn delay={0.1} className="lg:sticky lg:top-28">
             <div className="overflow-hidden rounded-2xl border border-border bg-surface">
-              <CalEmbed calLink={calLink} />
+              {isCalConfigured ? (
+                <CalEmbed calLink={calLink} />
+              ) : (
+                <CalPlaceholder />
+              )}
             </div>
           </FadeIn>
         </div>
