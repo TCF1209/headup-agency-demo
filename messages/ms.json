@@ -3,5 +3,41 @@
     "label": "01 / Persediaan",
     "title": "Head Up Agency",
     "description": "Perancah siap. Token jenama, Inter, dan JetBrains Mono telah disambung. Halaman sebenar akan mengikut susunan pembinaan dalam PROJECT_BRIEF.md §14."
+  },
+  "Nav": {
+    "home": "Utama",
+    "services": "Perkhidmatan",
+    "solutions": "Kajian Kes",
+    "careers": "Kerjaya",
+    "partners": "Rakan Niaga",
+    "blog": "Blog",
+    "bookConsultation": "Tempah Konsultasi",
+    "menuLabel": "Menu"
+  },
+  "Footer": {
+    "tagline": "Kami membantu perniagaan F&B di seluruh Malaysia berkembang dalam talian melalui pemasaran prestasi di GrabFood dan Foodpanda, bergandingan dengan sistem POS moden untuk operasi yang mampan.",
+    "services": {
+      "heading": "Perkhidmatan",
+      "grabfood": "Pemasaran GrabFood & Foodpanda",
+      "pos": "Sistem POS"
+    },
+    "company": {
+      "heading": "Syarikat"
+    },
+    "contact": {
+      "heading": "Hubungi",
+      "whatsapp": "WhatsApp",
+      "addressPlaceholder": "Lembah Klang, Malaysia"
+    },
+    "newsletter": {
+      "heading": "Kekal terkini",
+      "copy": "Wawasan bulanan tentang pertumbuhan F&B di Malaysia. Tiada spam.",
+      "placeholder": "you@business.com",
+      "submit": "Langgan",
+      "submitted": "Dilanggan"
+    },
+    "copyright": "© {year} Head Up Agency. Semua hak terpelihara.",
+    "privacy": "Privasi",
+    "terms": "Terma"
   }
 }

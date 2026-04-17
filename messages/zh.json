@@ -3,5 +3,41 @@
     "label": "01 / 设置",
     "title": "Head Up Agency",
     "description": "脚手架就绪。品牌令牌、Inter 和 JetBrains Mono 已接入。实际页面依据 PROJECT_BRIEF.md §14 的构建顺序展开。"
+  },
+  "Nav": {
+    "home": "首页",
+    "services": "服务",
+    "solutions": "案例",
+    "careers": "招聘",
+    "partners": "合作",
+    "blog": "博客",
+    "bookConsultation": "预约咨询",
+    "menuLabel": "菜单"
+  },
+  "Footer": {
+    "tagline": "我们帮助马来西亚的餐饮业者通过 GrabFood 和 Foodpanda 的效果营销实现线上增长，并结合现代 POS 系统打造可持续的运营能力。",
+    "services": {
+      "heading": "服务",
+      "grabfood": "GrabFood 与 Foodpanda 营销",
+      "pos": "POS 系统方案"
+    },
+    "company": {
+      "heading": "公司"
+    },
+    "contact": {
+      "heading": "联系我们",
+      "whatsapp": "WhatsApp",
+      "addressPlaceholder": "马来西亚巴生谷"
+    },
+    "newsletter": {
+      "heading": "保持同步",
+      "copy": "马来西亚餐饮增长每月洞察，无垃圾邮件。",
+      "placeholder": "you@business.com",
+      "submit": "订阅",
+      "submitted": "已订阅"
+    },
+    "copyright": "© {year} Head Up Agency。版权所有。",
+    "privacy": "隐私政策",
+    "terms": "服务条款"
   }
 }

@@ -3,5 +3,41 @@
     "label": "01 / Setup",
     "title": "Head Up Agency",
     "description": "Scaffold ready. Brand tokens, Inter, and JetBrains Mono are wired. Real pages follow the build order in PROJECT_BRIEF.md §14."
+  },
+  "Nav": {
+    "home": "Home",
+    "services": "Services",
+    "solutions": "Solutions",
+    "careers": "Careers",
+    "partners": "Partners",
+    "blog": "Blog",
+    "bookConsultation": "Book Consultation",
+    "menuLabel": "Menu"
+  },
+  "Footer": {
+    "tagline": "We help F&B businesses across Malaysia grow online with performance marketing on GrabFood and Foodpanda, paired with modern POS infrastructure for sustainable operations.",
+    "services": {
+      "heading": "Services",
+      "grabfood": "GrabFood & Foodpanda Marketing",
+      "pos": "POS System Solutions"
+    },
+    "company": {
+      "heading": "Company"
+    },
+    "contact": {
+      "heading": "Contact",
+      "whatsapp": "WhatsApp",
+      "addressPlaceholder": "Klang Valley, Malaysia"
+    },
+    "newsletter": {
+      "heading": "Stay informed",
+      "copy": "Monthly insights on F&B growth in Malaysia. No spam.",
+      "placeholder": "you@business.com",
+      "submit": "Subscribe",
+      "submitted": "Subscribed"
+    },
+    "copyright": "© {year} Head Up Agency. All rights reserved.",
+    "privacy": "Privacy",
+    "terms": "Terms"
   }
 }
