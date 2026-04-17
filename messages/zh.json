@@ -59,6 +59,64 @@
       "inquireCta": "发送询问"
     }
   },
+  "Services": {
+    "header": {
+      "title": "为马来西亚餐饮业打造的增长营销与 POS 方案。",
+      "intro": "两条赛道可独立运行，也可协同发力。多数客户从其一入手，首个季度内补齐另一条。"
+    },
+    "grabfood": {
+      "label": "01 / 服务",
+      "title": "GrabFood 与 Foodpanda 营销",
+      "blurb": "高转化的店铺展示、契合马来西亚节奏的活动计划，以及真正能告诉你下周该做什么的报告。",
+      "integrates": "对接平台",
+      "sub": {
+        "setup": {
+          "title": "店铺设置与优化",
+          "description": "菜品摄影、定价策略与描述文案，全部围绕外卖平台的转化设计——不是照搬堂食菜单。"
+        },
+        "ads": {
+          "title": "广告投放",
+          "description": "双平台站内广告投放：受众定向、预算节奏与时段出价每周迭代。"
+        },
+        "campaigns": {
+          "title": "促销与活动策划",
+          "description": "优惠券策略，配合农历新年、开斋节、屠妖节、MDCC 等马来西亚关键节庆做季节性推广。"
+        },
+        "analytics": {
+          "title": "效果分析",
+          "description": "月度报告包含 ROI、复购率与下季度具体动作，拒绝虚荣指标。"
+        }
+      }
+    },
+    "pos": {
+      "label": "02 / 服务",
+      "title": "POS 系统方案",
+      "blurb": "现代化 POS，开箱即与外卖平台打通。我们的团队上门安装，而不是寄过去让你自己搞定。",
+      "integrates": "对接平台",
+      "sub": {
+        "setup": {
+          "title": "POS 硬件与软件部署",
+          "description": "StoreHub 或 Slurp 的完整安装——小票打印机、钱箱、厨房显示屏及员工培训一站到位。"
+        },
+        "menu": {
+          "title": "菜单与库存管理",
+          "description": "堂食与外卖菜单同步，实时库存追踪，避免热卖品突然断货。"
+        },
+        "integration": {
+          "title": "系统集成",
+          "description": "与 GrabFood、Foodpanda 直连，订单自动进入 POS，无需人工重录。"
+        },
+        "support": {
+          "title": "持续支持与维护",
+          "description": "当日响应热线、固件更新与季度回访。过去 12 个月一次解决率 98%。"
+        }
+      }
+    },
+    "faq": {
+      "label": "03 / FAQ",
+      "heading": "常见问题。"
+    }
+  },
   "Nav": {
     "home": "首页",
     "services": "服务",

@@ -59,6 +59,64 @@
       "inquireCta": "Send Inquiry"
     }
   },
+  "Services": {
+    "header": {
+      "title": "Growth marketing + POS, built for Malaysian F&B.",
+      "intro": "Two tracks that work independently or together. Most clients start with one and add the other within their first quarter."
+    },
+    "grabfood": {
+      "label": "01 / Service",
+      "title": "GrabFood & Foodpanda Marketing",
+      "blurb": "Listings that convert, campaigns tuned to Malaysian rhythms, and reporting that actually tells you what to do next week.",
+      "integrates": "Integrates with",
+      "sub": {
+        "setup": {
+          "title": "Store Setup & Optimisation",
+          "description": "Menu photography, pricing strategy, and descriptions designed for delivery-platform conversion — not dine-in menu copy."
+        },
+        "ads": {
+          "title": "Ads Management",
+          "description": "In-app ad buying across both platforms. Audience targeting, budget pacing, and daypart bidding tuned weekly."
+        },
+        "campaigns": {
+          "title": "Promotion & Campaign Planning",
+          "description": "Voucher strategy, seasonal pushes for CNY, Raya, Deepavali, MDCC — the calendar that matters to Malaysian customers."
+        },
+        "analytics": {
+          "title": "Performance Analytics",
+          "description": "Monthly reports with ROI, repeat-customer rate, and specific next-quarter actions. No vanity metrics."
+        }
+      }
+    },
+    "pos": {
+      "label": "02 / Service",
+      "title": "POS System Solutions",
+      "blurb": "Modern POS that integrates with delivery apps out of the box. Installed on-site by our team, not shipped for you to figure out.",
+      "integrates": "Integrates with",
+      "sub": {
+        "setup": {
+          "title": "POS Hardware & Software Setup",
+          "description": "End-to-end install of StoreHub or Slurp — receipt printers, cash drawers, kitchen display, and full staff training."
+        },
+        "menu": {
+          "title": "Menu & Inventory Management",
+          "description": "Digital menu sync across dine-in and delivery. Real-time stock tracking so you stop running out of the wrong items."
+        },
+        "integration": {
+          "title": "Integration Services",
+          "description": "Direct connection to GrabFood and Foodpanda. Incoming orders land in your POS automatically — no double-entry."
+        },
+        "support": {
+          "title": "Ongoing Support & Maintenance",
+          "description": "Same-day hotline support, firmware updates, and quarterly check-ins. 98% first-call resolution over the last 12 months."
+        }
+      }
+    },
+    "faq": {
+      "label": "03 / FAQ",
+      "heading": "Common questions, answered."
+    }
+  },
   "Nav": {
     "home": "Home",
     "services": "Services",

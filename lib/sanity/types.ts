@@ -27,3 +27,22 @@ export type HomeTestimonial = {
   businessName?: string;
   avatar?: SanityImageRef;
 };
+
+export type PortableBlock = {
+  _type: string;
+  _key?: string;
+  [key: string]: unknown;
+};
+
+export type LocalizedPortable = {
+  en: PortableBlock[];
+  zh?: PortableBlock[];
+  ms?: PortableBlock[];
+};
+
+export type Faq = {
+  _id: string;
+  question: LocalizedString;
+  answer: LocalizedPortable;
+  category: "services" | "pricing" | "general";
+};

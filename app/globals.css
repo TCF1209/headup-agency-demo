@@ -36,6 +36,25 @@ body {
   font-family: var(--font-sans);
 }
 
+/* Accordion height keyframes — used by Radix Accordion + Tailwind arbitrary animations */
+@keyframes accordion-down {
+  from {
+    height: 0;
+  }
+  to {
+    height: var(--radix-accordion-content-height);
+  }
+}
+
+@keyframes accordion-up {
+  from {
+    height: var(--radix-accordion-content-height);
+  }
+  to {
+    height: 0;
+  }
+}
+
 /* Respect reduced-motion preference globally — brief §3.5 */
 @media (prefers-reduced-motion: reduce) {
   *,

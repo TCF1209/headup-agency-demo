@@ -59,6 +59,64 @@
       "inquireCta": "Hantar Pertanyaan"
     }
   },
+  "Services": {
+    "header": {
+      "title": "Pemasaran pertumbuhan + POS, dibina untuk F&B Malaysia.",
+      "intro": "Dua laluan yang boleh berjalan secara bersendirian atau bergabung. Kebanyakan klien mula dengan satu dan tambah yang lain dalam suku tahun pertama."
+    },
+    "grabfood": {
+      "label": "01 / Perkhidmatan",
+      "title": "Pemasaran GrabFood & Foodpanda",
+      "blurb": "Penyenaraian yang menukar, kempen diselaraskan dengan irama Malaysia, dan laporan yang sebenarnya memberitahu anda apa perlu buat minggu depan.",
+      "integrates": "Bersepadu dengan",
+      "sub": {
+        "setup": {
+          "title": "Persediaan & Pengoptimuman Kedai",
+          "description": "Fotografi menu, strategi harga, dan deskripsi yang direka untuk penukaran di platform penghantaran — bukan salinan menu dine-in."
+        },
+        "ads": {
+          "title": "Pengurusan Iklan",
+          "description": "Pembelian iklan dalam aplikasi merentas kedua-dua platform. Penyasaran audiens, bayaran belanja, dan bidaan mengikut waktu disesuaikan setiap minggu."
+        },
+        "campaigns": {
+          "title": "Perancangan Promosi & Kempen",
+          "description": "Strategi baucar, tolakan bermusim untuk CNY, Raya, Deepavali, MDCC — kalendar yang penting kepada pelanggan Malaysia."
+        },
+        "analytics": {
+          "title": "Analisis Prestasi",
+          "description": "Laporan bulanan dengan ROI, kadar pelanggan berulang, dan tindakan khusus suku seterusnya. Tiada metrik kosong."
+        }
+      }
+    },
+    "pos": {
+      "label": "02 / Perkhidmatan",
+      "title": "Sistem POS",
+      "blurb": "POS moden yang bersepadu dengan aplikasi penghantaran secara terus. Dipasang di lokasi oleh pasukan kami, bukan dihantar untuk anda selesaikan sendiri.",
+      "integrates": "Bersepadu dengan",
+      "sub": {
+        "setup": {
+          "title": "Persediaan Perkakasan & Perisian POS",
+          "description": "Pemasangan hujung-ke-hujung StoreHub atau Slurp — pencetak resit, laci wang, paparan dapur, dan latihan kakitangan penuh."
+        },
+        "menu": {
+          "title": "Pengurusan Menu & Inventori",
+          "description": "Penyegerakan menu digital merentas dine-in dan penghantaran. Penjejakan stok masa nyata supaya anda tidak kehabisan barang yang salah."
+        },
+        "integration": {
+          "title": "Perkhidmatan Integrasi",
+          "description": "Sambungan terus ke GrabFood dan Foodpanda. Tempahan masuk secara automatik ke POS — tiada input berganda."
+        },
+        "support": {
+          "title": "Sokongan & Penyelenggaraan Berterusan",
+          "description": "Sokongan hotline hari yang sama, kemas kini perisian tegar, dan pemeriksaan suku tahunan. Resolusi panggilan pertama 98% sepanjang 12 bulan lalu."
+        }
+      }
+    },
+    "faq": {
+      "label": "03 / FAQ",
+      "heading": "Soalan lazim, dijawab."
+    }
+  },
   "Nav": {
     "home": "Utama",
     "services": "Perkhidmatan",

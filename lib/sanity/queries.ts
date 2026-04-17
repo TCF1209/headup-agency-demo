@@ -22,3 +22,12 @@ export const homeTestimonialsQuery = groq`
     avatar
   }
 `;
+
+export const faqsQuery = groq`
+  *[_type == "faq"] | order(order asc) {
+    _id,
+    question,
+    answer,
+    category
+  }
+`;
