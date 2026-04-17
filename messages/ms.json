@@ -1,8 +1,63 @@
 {
   "Home": {
-    "label": "01 / Persediaan",
-    "title": "Head Up Agency",
-    "description": "Perancah siap. Token jenama, Inter, dan JetBrains Mono telah disambung. Halaman sebenar akan mengikut susunan pembinaan dalam PROJECT_BRIEF.md §14."
+    "hero": {
+      "label": "Untuk pengusaha F&B Malaysia",
+      "title": "Kami Membantu Perniagaan F&B Berkembang Dalam Talian.",
+      "subtitle": "Pemasaran prestasi GrabFood dan Foodpanda, bersama sistem POS yang boleh berkembang — dibina untuk kafe, penjaja, dapur awan, dan restoran di Lembah Klang.",
+      "primaryCta": "Tempah Konsultasi",
+      "secondaryCta": "Lihat Hasil Kerja",
+      "trustBadge": "Dipercayai oleh 50+ perniagaan F&B di Lembah Klang"
+    },
+    "services": {
+      "label": "01 / Perkhidmatan",
+      "heading": "Dua laluan, satu enjin pertumbuhan.",
+      "grabfood": {
+        "title": "Pemasaran GrabFood & Foodpanda",
+        "blurb": "Pengoptimuman menu, kempen baucar, iklan dalam aplikasi, dan laporan prestasi bulanan yang diselaraskan dengan irama F&B Malaysia — CNY, Raya, Deepavali, hari gaji hujung bulan.",
+        "cta": "Lihat cara kami jalankan kempen"
+      },
+      "pos": {
+        "title": "Sistem POS",
+        "blurb": "Pemasangan StoreHub dan Slurp dengan integrasi terus GrabFood dan Foodpanda. Tiada lagi input berganda pada malam sibuk. Latihan di lokasi disertakan.",
+        "cta": "Terokai pilihan POS"
+      }
+    },
+    "process": {
+      "label": "02 / Cara kerja",
+      "heading": "Empat langkah, diulang setiap bulan.",
+      "steps": {
+        "discover": {
+          "title": "Temukan",
+          "description": "Kami audit penyenaraian, POS, dan operasi anda untuk mencari kebocoran yang menjejaskan tempahan."
+        },
+        "strategize": {
+          "title": "Merancang",
+          "description": "Kami bina pelan 90 hari yang dipadankan dengan kapasiti dapur dan kawasan anda — bukan templat generik."
+        },
+        "execute": {
+          "title": "Laksana",
+          "description": "Fotografi menu, iklan, pemasangan POS, latihan kakitangan. Kami turun ke lapangan untuk buat kerja."
+        },
+        "optimize": {
+          "title": "Optimum",
+          "description": "Laporan bulanan, ujian A/B, dan kemas kini playbook. Apa yang berkesan Isnin, kami gandakan pada Jumaat."
+        }
+      }
+    },
+    "cases": {
+      "label": "03 / Kajian kes",
+      "heading": "Hasil yang bercakap sendiri.",
+      "viewAll": "Lihat semua kajian kes"
+    },
+    "testimonials": {
+      "label": "04 / Suara mereka",
+      "heading": "Apa kata pengusaha."
+    },
+    "finalCta": {
+      "heading": "Bersedia untuk membangunkan perniagaan F&B anda?",
+      "bookCta": "Tempah Konsultasi",
+      "inquireCta": "Hantar Pertanyaan"
+    }
   },
   "Nav": {
     "home": "Utama",

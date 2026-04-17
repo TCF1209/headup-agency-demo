@@ -1,8 +1,63 @@
 {
   "Home": {
-    "label": "01 / 设置",
-    "title": "Head Up Agency",
-    "description": "脚手架就绪。品牌令牌、Inter 和 JetBrains Mono 已接入。实际页面依据 PROJECT_BRIEF.md §14 的构建顺序展开。"
+    "hero": {
+      "label": "为马来西亚餐饮业者而设",
+      "title": "我们帮助餐饮业线上增长。",
+      "subtitle": "GrabFood 与 Foodpanda 效果营销，加上可扩展的 POS 系统——专为巴生谷的咖啡馆、小贩、云厨房和餐厅打造。",
+      "primaryCta": "预约咨询",
+      "secondaryCta": "查看案例",
+      "trustBadge": "巴生谷 50+ 餐饮业者的信赖之选"
+    },
+    "services": {
+      "label": "01 / 服务",
+      "heading": "两条赛道，一个增长引擎。",
+      "grabfood": {
+        "title": "GrabFood 与 Foodpanda 营销",
+        "blurb": "菜单优化、优惠券活动、应用内广告，以及契合马来西亚节庆节奏（农历新年、开斋节、屠妖节、月末发薪日）的月度报告。",
+        "cta": "看我们如何运营"
+      },
+      "pos": {
+        "title": "POS 系统方案",
+        "blurb": "StoreHub 与 Slurp 安装，并与 GrabFood、Foodpanda 直接打通。忙时不再双重录单。含现场培训。",
+        "cta": "了解 POS 选项"
+      }
+    },
+    "process": {
+      "label": "02 / 工作方式",
+      "heading": "四步节奏，月月迭代。",
+      "steps": {
+        "discover": {
+          "title": "诊断",
+          "description": "我们审查你的店铺列表、POS 与运营流程，找出真正流失订单的环节。"
+        },
+        "strategize": {
+          "title": "策划",
+          "description": "根据你的厨房产能与商圈特点制定 90 天计划，而非通用模板。"
+        },
+        "execute": {
+          "title": "执行",
+          "description": "菜品拍摄、广告投放、POS 安装、员工培训——我们落地到位。"
+        },
+        "optimize": {
+          "title": "优化",
+          "description": "每月复盘、A/B 测试与策略更新。周一奏效，周五加码。"
+        }
+      }
+    },
+    "cases": {
+      "label": "03 / 案例",
+      "heading": "数据说明一切。",
+      "viewAll": "查看全部案例"
+    },
+    "testimonials": {
+      "label": "04 / 客户原声",
+      "heading": "经营者怎么说。"
+    },
+    "finalCta": {
+      "heading": "准备好让你的餐饮生意增长了吗？",
+      "bookCta": "预约咨询",
+      "inquireCta": "发送询问"
+    }
   },
   "Nav": {
     "home": "首页",

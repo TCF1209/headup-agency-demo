@@ -1,19 +1,37 @@
-import { useTranslations } from "next-intl";
+import { Hero } from "@/components/sections/hero";
+import { ServicesOverview } from "@/components/sections/services-overview";
+import { Process } from "@/components/sections/process";
+import { CaseStudyHighlights } from "@/components/sections/case-study-highlights";
+import { Testimonials } from "@/components/sections/testimonials";
+import { FinalCta } from "@/components/sections/final-cta";
+import { sanityClient } from "@/lib/sanity/client";
+import {
+  featuredCaseStudiesQuery,
+  homeTestimonialsQuery,
+} from "@/lib/sanity/queries";
+import type { HomeCaseStudy, HomeTestimonial } from "@/lib/sanity/types";
+import type { Locale } from "@/i18n/routing";
 
-export default function Home() {
-  const t = useTranslations("Home");
+export default async function Home({
+  params,
+}: {
+  params: Promise<{ locale: Locale }>;
+}) {
+  const { locale } = await params;
+
+  const [caseStudies, testimonials] = await Promise.all([
+    sanityClient.fetch<HomeCaseStudy[]>(featuredCaseStudiesQuery),
+    sanityClient.fetch<HomeTestimonial[]>(homeTestimonialsQuery),
+  ]);
 
   return (
-    <section className="mx-auto flex min-h-[80vh] w-full max-w-7xl flex-col items-start justify-center px-6 py-24 lg:px-8">
-      <p className="font-mono text-xs uppercase tracking-widest text-muted">
-        {t("label")}
-      </p>
-      <h1 className="mt-6 text-5xl font-semibold tracking-tight text-ink md:text-6xl lg:text-7xl">
-        {t("title")}
-      </h1>
-      <p className="mt-6 max-w-xl text-base leading-relaxed text-ink-soft md:text-lg">
-        {t("description")}
-      </p>
-    </section>
+    <>
+      <Hero />
+      <ServicesOverview />
+      <Process />
+      <CaseStudyHighlights caseStudies={caseStudies} locale={locale} />
+      <Testimonials items={testimonials} locale={locale} />
+      <FinalCta />
+    </>
   );
 }

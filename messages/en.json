@@ -1,8 +1,63 @@
 {
   "Home": {
-    "label": "01 / Setup",
-    "title": "Head Up Agency",
-    "description": "Scaffold ready. Brand tokens, Inter, and JetBrains Mono are wired. Real pages follow the build order in PROJECT_BRIEF.md §14."
+    "hero": {
+      "label": "For Malaysian F&B operators",
+      "title": "We Help F&B Businesses Grow Online.",
+      "subtitle": "GrabFood and Foodpanda performance marketing, plus POS setups that scale — built for cafes, hawkers, cloud kitchens, and restaurants across the Klang Valley.",
+      "primaryCta": "Book a Consultation",
+      "secondaryCta": "See Our Work",
+      "trustBadge": "Trusted by 50+ F&B businesses across Klang Valley"
+    },
+    "services": {
+      "label": "01 / Services",
+      "heading": "Two tracks, one growth engine.",
+      "grabfood": {
+        "title": "GrabFood & Foodpanda Marketing",
+        "blurb": "Menu optimisation, voucher campaigns, in-app ads, and monthly performance reports tuned to Malaysian F&B rhythms — CNY, Raya, Deepavali, month-end paydays.",
+        "cta": "See how we run campaigns"
+      },
+      "pos": {
+        "title": "POS System Solutions",
+        "blurb": "StoreHub and Slurp installs with direct GrabFood and Foodpanda integration. No more double-entry on busy nights. On-site training included.",
+        "cta": "Explore POS options"
+      }
+    },
+    "process": {
+      "label": "02 / How we work",
+      "heading": "A four-step rhythm, repeated monthly.",
+      "steps": {
+        "discover": {
+          "title": "Discover",
+          "description": "We audit your listings, POS, and operations to find the specific leaks costing you orders."
+        },
+        "strategize": {
+          "title": "Strategize",
+          "description": "We build a 90-day plan matched to your kitchen capacity and neighbourhood — not a generic template."
+        },
+        "execute": {
+          "title": "Execute",
+          "description": "Menu shoots, ad setup, POS installation, staff training. We handle the boots-on-the-ground delivery."
+        },
+        "optimize": {
+          "title": "Optimize",
+          "description": "Monthly reporting, A/B tests, and playbook updates. What works on Monday gets doubled down on Friday."
+        }
+      }
+    },
+    "cases": {
+      "label": "03 / Case studies",
+      "heading": "Results that speak for themselves.",
+      "viewAll": "View all case studies"
+    },
+    "testimonials": {
+      "label": "04 / In their words",
+      "heading": "What operators say."
+    },
+    "finalCta": {
+      "heading": "Ready to grow your F&B business?",
+      "bookCta": "Book Consultation",
+      "inquireCta": "Send Inquiry"
+    }
   },
   "Nav": {
     "home": "Home",
