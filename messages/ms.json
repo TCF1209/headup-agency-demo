@@ -303,6 +303,19 @@
       "successBody": "Kami akan semak dan balas dalam 3 hari bekerja. Sementara itu, semak peti masuk anda untuk emel pengesahan."
     }
   },
+  "Blog": {
+    "header": {
+      "title": "Nota lapangan pertumbuhan F&B di Malaysia.",
+      "intro": "Tulisan taktikal dari kerja mingguan kami bersama kafe, dapur awan, dan penjaja. Bukan listicle.",
+      "empty": "Belum ada tulisan — langgan di footer dan kami akan maklum bila yang pertama keluar."
+    },
+    "detail": {
+      "back": "Semua tulisan",
+      "authorLabel": "Ditulis oleh",
+      "relatedLabel": "07 / Baca lanjut",
+      "relatedHeading": "Nota lapangan lain."
+    }
+  },
   "Nav": {
     "home": "Utama",
     "services": "Perkhidmatan",

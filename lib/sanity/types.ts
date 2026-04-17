@@ -82,6 +82,28 @@ export type CaseStudyDetail = {
   publishedAt?: string;
 };
 
+export type BlogAuthor = {
+  name: string;
+  role?: string;
+  avatar?: SanityImageRef;
+  bio?: LocalizedString;
+};
+
+export type BlogPostCard = {
+  _id: string;
+  title: LocalizedString;
+  slug: { current: string };
+  excerpt: LocalizedString;
+  coverImage: SanityImageRef;
+  author: BlogAuthor | null;
+  category: Category | null;
+  publishedAt: string;
+};
+
+export type BlogPostDetail = BlogPostCard & {
+  body: LocalizedPortable;
+};
+
 export type JobType = "full-time" | "part-time" | "intern" | "contract";
 
 export type Job = {

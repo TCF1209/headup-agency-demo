@@ -303,6 +303,19 @@
       "successBody": "We'll review and respond within 3 working days. Check your inbox for a confirmation email in the meantime."
     }
   },
+  "Blog": {
+    "header": {
+      "title": "Field notes on F&B growth in Malaysia.",
+      "intro": "Tactical writeups from our week-to-week work with cafes, cloud kitchens, and hawkers. No listicles.",
+      "empty": "No posts yet — subscribe via the footer and we'll ping you when the first one lands."
+    },
+    "detail": {
+      "back": "All posts",
+      "authorLabel": "Written by",
+      "relatedLabel": "07 / More reading",
+      "relatedHeading": "Other field notes."
+    }
+  },
   "Nav": {
     "home": "Home",
     "services": "Services",

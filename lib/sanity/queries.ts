@@ -111,3 +111,50 @@ export const activeJobsQuery = groq`
     requirements
   }
 `;
+
+export const allBlogPostsQuery = groq`
+  *[_type == "blogPost"] | order(publishedAt desc) {
+    _id,
+    title,
+    slug,
+    excerpt,
+    coverImage,
+    "author": author->{ name, role, avatar },
+    "category": category->{ _id, name, slug },
+    publishedAt
+  }
+`;
+
+export const blogPostBySlugQuery = groq`
+  *[_type == "blogPost" && slug.current == $slug][0] {
+    _id,
+    title,
+    slug,
+    excerpt,
+    coverImage,
+    "author": author->{ name, role, avatar, bio },
+    "category": category->{ _id, name, slug },
+    body,
+    publishedAt
+  }
+`;
+
+export const relatedBlogPostsQuery = groq`
+  *[_type == "blogPost" && slug.current != $slug]
+  | order(publishedAt desc)[0...3] {
+    _id,
+    title,
+    slug,
+    excerpt,
+    coverImage,
+    "author": author->{ name, role },
+    "category": category->{ _id, name, slug },
+    publishedAt
+  }
+`;
+
+export const allBlogSlugsQuery = groq`
+  *[_type == "blogPost" && defined(slug.current)] {
+    "slug": slug.current
+  }
+`;

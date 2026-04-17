@@ -70,6 +70,8 @@ async function main() {
     cloudKitchen: await uploadImage("cloud-kitchen.jpg"),
     hawker: await uploadImage("hawker.jpg"),
     logo: await uploadImage("logo.png"),
+    consultation: await uploadImage("consultation.jpg"),
+    pos: await uploadImage("pos-v2.jpg"),
   };
   console.log(`  uploaded ${Object.keys(assets).length} images`);
 
@@ -430,6 +432,64 @@ async function main() {
       "2+ years in POS implementation, F&B operations, or tech support in restaurants.\nDriving licence and own transport (client-site work across the Valley).\nPatient, clear communicator — you're teaching 50-year-old aunties and uncles new tech daily.\nFluency in English and BM required; Mandarin is a big plus."
     ),
     active: true,
+  });
+
+  console.log("→ Seeding author...");
+  await client.createOrReplace({
+    _id: "author-aisha",
+    _type: "author",
+    name: "Aisha Rahman",
+    role: "Senior Growth Lead",
+    bio: locText(
+      "Eight years running F&B performance marketing in Malaysia, most recently scaling a cloud-kitchen group from 3 to 14 brands before joining Head Up."
+    ),
+  });
+
+  console.log("→ Seeding blog posts...");
+  await client.createOrReplace({
+    _id: "post-grabfood-pricing",
+    _type: "blogPost",
+    title: locString(
+      "Pricing a GrabFood menu that still makes money after platform fees",
+      "在扣除平台费后依然赚钱的 GrabFood 菜单定价",
+      "Harga menu GrabFood yang masih untung selepas yuran platform"
+    ),
+    slug: slug("grabfood-pricing-after-platform-fees"),
+    excerpt: locText(
+      "Platform fees eat 25-30% of every order. Most operators absorb it quietly and wonder why delivery feels unprofitable. Here's the pricing framework we teach every client in week one."
+    ),
+    coverImage: imageRef(assets.consultation, "Pricing discussion"),
+    author: ref("author-aisha"),
+    category: ref("category-cafe"),
+    body: locPortable([
+      "GrabFood and Foodpanda each take 25-30% of the gross order value. If your dine-in food cost is 32%, your delivery contribution margin is negative before you pay for packaging. Every operator we meet in month one is either losing money on delivery or refusing to discount — both break growth.",
+      "The framework we use is simple: build a delivery menu, not a mirror of your dine-in menu. Prices 10-15% higher on delivery items, packaging built into the item cost, and a clear decision on which SKUs you actively don't want to sell through delivery.",
+      "The result: margin on delivery orders matches or beats dine-in within 60 days, and you stop subsidising growth with your savings account. We'll walk through the exact spreadsheet in a future post.",
+    ]),
+    publishedAt: new Date("2026-03-25").toISOString(),
+  });
+
+  await client.createOrReplace({
+    _id: "post-pos-checklist",
+    _type: "blogPost",
+    title: locString(
+      "POS checklist for a Malaysian cafe opening: what to buy, what to skip",
+      "马来西亚咖啡馆开业 POS 清单：买什么，跳过什么",
+      "Senarai semak POS untuk pembukaan kafe Malaysia: apa perlu beli, apa perlu lepas"
+    ),
+    slug: slug("pos-checklist-cafe-opening"),
+    excerpt: locText(
+      "We've installed POS systems at 60+ F&B outlets across the Klang Valley. This is the kit we actually buy, the kit we skip, and the kit clients always try to add that isn't worth it."
+    ),
+    coverImage: imageRef(assets.pos, "POS hardware at a cafe"),
+    author: ref("author-aisha"),
+    category: ref("category-cafe"),
+    body: locPortable([
+      "Every first-time cafe owner asks us the same three questions: receipt printer or not? kitchen display or paper tickets? cash drawer now or later? The honest answer depends on your volume, your kitchen layout, and whether you're running delivery on day one.",
+      "Must-buys for any serious cafe: a main POS terminal (iPad-based works, a dedicated unit is better for longevity), a receipt printer (yes, even for 'paperless' cafes — customers still ask), and the software integration with at least GrabFood. Everything else is optional at opening.",
+      "Skip at opening: kitchen display systems unless you have more than 3 cooks, cash drawers if you're 90%+ cashless, second terminals until your peak queue exceeds 5 people. These add up to RM8-12K in over-spec that most cafes never use.",
+    ]),
+    publishedAt: new Date("2026-04-02").toISOString(),
   });
 
   console.log("✓ Seed complete.");
