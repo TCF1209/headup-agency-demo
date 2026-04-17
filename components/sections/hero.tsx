@@ -57,20 +57,20 @@ export function Hero() {
             className="mt-14 flex flex-col gap-5 border-t border-border pt-8 md:flex-row md:items-center md:gap-8"
           >
             <p className="max-w-xs text-sm text-muted">{t("trustBadge")}</p>
-            <div className="flex items-center gap-6 opacity-80">
+            <div className="flex items-center gap-5">
               <Image
                 src="/assets/grabfood.png"
                 alt="GrabFood"
-                width={80}
-                height={28}
-                className="h-6 w-auto object-contain"
+                width={48}
+                height={48}
+                className="h-12 w-12 rounded-lg object-contain"
               />
               <Image
                 src="/assets/foodpanda.jpg"
                 alt="Foodpanda"
-                width={80}
-                height={28}
-                className="h-6 w-auto rounded object-contain"
+                width={48}
+                height={48}
+                className="h-12 w-12 rounded-lg object-contain"
               />
             </div>
           </motion.div>
