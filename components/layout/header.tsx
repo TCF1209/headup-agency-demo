@@ -39,10 +39,10 @@ export function Header() {
             <Image
               src="/assets/logo.png"
               alt="Head Up Agency"
-              width={120}
-              height={32}
+              width={64}
+              height={64}
               priority
-              className="h-8 w-auto"
+              className="h-12 w-12 rounded-md md:h-14 md:w-14"
             />
           </Link>
 
