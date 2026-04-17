@@ -143,6 +143,28 @@
       "detailCta": "Book a consultation"
     }
   },
+  "Book": {
+    "breadcrumb": "Book",
+    "title": "Book Your Free 30-Min Consultation",
+    "intro": "No slides. We look at your current listings, ad spend, and POS setup, and walk you through what we'd change in the first 30 days.",
+    "takeaways": {
+      "label": "You'll leave with",
+      "item1": "A ranked list of specific changes we'd make to your GrabFood or Foodpanda listings",
+      "item2": "A realistic order-growth target matched to your kitchen capacity",
+      "item3": "An honest read on whether we're a fit — no hard sell"
+    },
+    "testimonial": {
+      "quote": "We went from 40 GrabFood orders a day to 180+ in under 3 months. The menu photography alone paid for itself in the first two weeks.",
+      "author": "Wei Ming",
+      "business": "Bangsar Coffee Works"
+    },
+    "confirmed": {
+      "label": "Booked",
+      "title": "Your consultation is confirmed.",
+      "body": "Check your email for the calendar invite. We'll also send a short questionnaire so the session starts with context, not introductions.",
+      "cta": "Back to home"
+    }
+  },
   "Nav": {
     "home": "Home",
     "services": "Services",

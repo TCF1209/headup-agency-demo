@@ -143,6 +143,28 @@
       "detailCta": "预约咨询"
     }
   },
+  "Book": {
+    "breadcrumb": "预约",
+    "title": "预约 30 分钟免费咨询",
+    "intro": "无演示幻灯。我们查看你现有的店铺展示、广告投放与 POS 配置，告诉你前 30 天我们会怎么调整。",
+    "takeaways": {
+      "label": "你会得到",
+      "item1": "一份按优先级排列的 GrabFood / Foodpanda 店铺改动清单",
+      "item2": "贴合你厨房产能的订单增长目标",
+      "item3": "坦诚评估我们是否合拍——不做硬推销"
+    },
+    "testimonial": {
+      "quote": "我们在不到 3 个月内从每天 40 单 GrabFood 增长到 180+。光是菜品摄影在头两周就回本了。",
+      "author": "Wei Ming",
+      "business": "Bangsar Coffee Works"
+    },
+    "confirmed": {
+      "label": "已预约",
+      "title": "咨询预约成功。",
+      "body": "请查收邮件中的日历邀请。我们还会发送一份简短问卷，让我们直接从你的情况切入，而不是从自我介绍开始。",
+      "cta": "返回首页"
+    }
+  },
   "Nav": {
     "home": "首页",
     "services": "服务",

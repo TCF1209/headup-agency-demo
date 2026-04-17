@@ -143,6 +143,28 @@
       "detailCta": "Tempah konsultasi"
     }
   },
+  "Book": {
+    "breadcrumb": "Tempah",
+    "title": "Tempah Konsultasi Percuma 30 Minit",
+    "intro": "Tiada slaid. Kami lihat penyenaraian, belanja iklan, dan persediaan POS semasa anda, kemudian terangkan apa yang kami akan ubah dalam 30 hari pertama.",
+    "takeaways": {
+      "label": "Anda akan pulang dengan",
+      "item1": "Senarai keutamaan perubahan khusus untuk penyenaraian GrabFood atau Foodpanda anda",
+      "item2": "Sasaran pertumbuhan tempahan yang realistik padan dengan kapasiti dapur",
+      "item3": "Penilaian jujur sama ada kami sepadan — tiada jualan keras"
+    },
+    "testimonial": {
+      "quote": "Kami meningkat dari 40 tempahan GrabFood sehari ke 180+ dalam masa kurang 3 bulan. Fotografi menu sahaja sudah membayar kosnya dalam dua minggu pertama.",
+      "author": "Wei Ming",
+      "business": "Bangsar Coffee Works"
+    },
+    "confirmed": {
+      "label": "Tertempah",
+      "title": "Konsultasi anda telah disahkan.",
+      "body": "Semak emel anda untuk jemputan kalendar. Kami juga akan hantar borang soal selidik ringkas supaya sesi bermula dengan konteks, bukan pengenalan.",
+      "cta": "Kembali ke laman utama"
+    }
+  },
   "Nav": {
     "home": "Utama",
     "services": "Perkhidmatan",
